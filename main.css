@@ -1,0 +1,210 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+    
+}
+
+#brand{
+    color:#538EA7;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;  
+    
+}
+
+/*my-intro*/
+
+#my-intro{
+    padding:120px 0px;
+/*    background-color:#E9AD70;*/
+    max-width: 750px;
+    margin:0 auto;
+}
+
+#my-intro h2, #my-work h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;  
+}
+
+#my-intro p, #my-work p{
+    text-align: center;
+}
+
+/*----PROJECTS------*/
+
+#myprojects row{
+    margin-bottom: 30px;
+}
+
+#myprojects h2{
+    font-weight: 700;
+    margin:15px 0px;
+}
+
+#my-work{
+    margin-bottom:120px;
+}
+
+#proj-row{
+    margin-bottom: 100px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+/*-------------------*/
+
+footer{
+    margin-top: 200px;
+    padding: 20px 0px;
+}
+.foot {
+  background: #353A3F;
+  color: #fff;
+  font-size: 85%;
+}
+
+#footer-row{
+    background-color:#538EA7;
+    top:-100px;
+    position:relative;
+    padding:50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 5px 0 #e9f0f3
+}
+
+#tech-info{
+    text-align: center;
+}
+
+.widget {
+  margin-top: 1.5em;
+  border-right: 1px solid #1c1c1c;
+}
+.widget:last-child {
+  border-right: none;
+}
+.widget p {
+  color: #EBE7F9;
+  line-height: 1.3em;
+}
+.widget form {
+  box-sizing: border-box;
+  padding: 1em;
+  background: #353A3F;
+  border-radius: .5em;
+  border: 1px solid #1c1c1c;
+}
+
+#sub-btn{
+    background-color: #538EA7 !important;
+    color:white;
+}
+.credits {
+  background: #353A3F;
+  border-top: 2px solid #538EA7;
+  padding: 1em 0;
+  color: #888;
+  line-height: 1.5em;
+}
+.social {
+  text-align: right;
+}
+.social a {
+  font-size: 1.5em;
+  margin-left: .5em;
+  color: #888;
+  text-decoration: none;
+}
+.social a:hover {
+  color: #ccc;
+}
+
+
